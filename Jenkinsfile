@@ -4,7 +4,7 @@
       git 'https://github.com/KarthickP6/SpringHospital'
      }
      stage('Compile-Package'){
-      sh 'mvn package'
+      bat 'mvn package'
     }
   }
  
