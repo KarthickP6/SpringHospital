@@ -7,7 +7,7 @@
      }
      stage('Compile-Package'){
       def mvnHome = tool name: 'Maven', type: 'maven'
-      bat 'mvn package'
+       bat "${mvnHome}/bin/mvn package"
     }
   }
  
