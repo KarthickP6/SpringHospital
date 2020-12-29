@@ -20,6 +20,7 @@ public class HospitalController {
 	@Autowired
 	HospitalService hospitalService;
 	
+	@GetMappin("/")
 	public List<Hospital> getAllHospital(){
 		return hospitalService.getAllHospital();
 	}
